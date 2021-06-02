@@ -1,0 +1,40 @@
+
+<style>
+
+  #Titulo {
+    color: white;
+    background: navy;
+    padding: 5px;
+    margin: auto;
+    width: 55%;
+  }
+  img {
+    width: 200px;
+    border: 2px solid navy;
+    widht: 200px;
+    margin-top: 10px;
+    margin-right: 10px;
+    }
+  p {
+    background: whitesmoke;
+    padding: 15px;
+    color: black;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  h4 {
+    color: white;
+    background: navy;
+    padding: 5px;
+    margin: auto;
+    width: 55%;
+  }
+  a {
+    color: navy;
+    font: bold;
+  }
+  body {
+    background: gainsboro;
+  }
+</style>
