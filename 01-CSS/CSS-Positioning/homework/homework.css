@@ -62,8 +62,3 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
     align-items: flex-start;
     flex-direction:column-reverse;
 }
-
-.elementoCuatro {
-    display: flex;
-    justify-self:self-end;
-}
