@@ -3,8 +3,75 @@ En un archivo de texto separado que debes crear, escribe explicaciones de los si
 si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier 
 agujero en tu comprensión.
 
-Variables
-Strings
-Funciones (argumentos, return)
-Declaraciones if
-Valores booleanos (true, false)
+//Variables:
+
+Una variable es un elemento que se emplea para almacenar un valor, para poder hacer uso de él
+en el futuro. Se declara con la palabra reservada 'var'.  Dependiendo del valor que se va a declarar
+es necesario escribirlas de acuerdo a 'reglas'.
+
+En el caso de las variables numéricas los decimales se escriben después de un punto sin otra modificación.
+
+var numero = 125.5;
+
+//Strings:
+
+Las cadenas de texto se utilizan para almacenar caracteres, palabras y/o frases de texto.
+Para asignar el valor a la variable, se encierra el valor 'entre comillas dobles o simples', 
+para delimitar su comienzo y su final:
+
+var mensaje = "Bienvenido a Javascript";
+var nombreProducto = 'Producto Javascript';
+var letraSeleccionada = 'j';
+
+//Funciones (argumentos, return)
+
+Una función en JavaScript es similar a un procedimiento — un conjunto de instrucciones que 
+realiza una tarea o calcula un valor, pero para que un procedimiento califique como función, 
+debe tomar alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada 
+y la salida.
+
+function cuadrado(numero) {
+  return numero * numero;
+}
+
+//Argumentos
+
+Dentro de una función, puedes recorrer los argumentos que se le pasan de la siguiente manera:
+
+arguments[i]
+
+donde i es el número ordinal del argumento, comenzando en 0. Entonces, el primer argumento que 
+se pasa a una función sería arguments[0].
+
+//Return
+
+La sentencia return finaliza la ejecución de la función y especifica un valor para ser devuelto a quien llama a la función.
+
+return;
+return true;
+return false;
+return x;
+return x + y / 3;
+
+//Declaraciones if
+
+Ejecuta una sentencia si una condición específicada es evaluada como verdadera. Si la condición es evaluada como falsa, 
+otra sentencia puede ser ejecutada.
+
+if (condición) {
+   sentencia1
+} else {
+   sentencia2
+}
+
+
+//Valores booleanos (true, false)
+
+Las variables de tipo boolean o booleano también se conocen con el nombre de variables de tipo lógico.
+Una variable de tipo boolean almacena un tipo especial de valor que solamente puede tomar dos valores: 
+true (verdadero) o false (falso). 
+No se puede utilizar para almacenar números y tampoco permite guardar cadenas de texto.
+
+var clienteRegistrado = false;
+var ivaIncluido = true;
+
