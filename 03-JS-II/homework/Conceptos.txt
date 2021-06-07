@@ -3,4 +3,52 @@ conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto
 a descubrir rápidamente cualquier agujero en tu comprensión.
 
 *for
-*&&, ||, !
+
+
+
+*&& And
+
+La operación lógica AND obtiene su resultado combinando dos valores booleanos.
+el operador se indica mediante el símbolo '&&' y su resultado solamennte
+es 'true' si los dos operandos son 'true':
+
+variable 1 | variable2 | variable1 && variable2
+true       |   true    |  true
+true       |   false   |  false
+false      |   true    |  false
+false      |   false   |  false 
+
+var valor1 = true;
+var valor2 = false;
+resultado = valor1 && valor2; // resultado = false
+
+valor1= true;
+valor2= true;
+resultado = valor1 && valor2; // resultado = true
+
+
+*|| Or
+
+La operación lógica 'Or' también combina dos valores booleanos.
+El operador se indica mediante el simbolo '||' y su resultado es
+'true' si alguno de los dos operandos es 'true':
+
+variable1 | variable2 | variable1 || variable2
+true      |  true     |  true
+true      |  false    |  true
+false     |  true     |  true
+false     |  false    |  false
+
+
+*! Negación
+
+Se utiliza para obtener el valor contrario al valor de la variable:
+La negación lógica se obtiene prefijando el simbolo '!' al identificador
+de la variable:
+
+var visible = true;
+alert(!visible); //Muestra "false" y no "true"
+
+variable | !variable
+true     |  false
+false    |  true
