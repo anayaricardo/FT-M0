@@ -167,7 +167,8 @@ function numeroRandom() {
 }
 
 function esPositivo(numero) {
-  //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
+  //La función va a recibir un entero. Devuelve como resultado una cadena de texto que 
+  //indica si el número es positivo o negativo. 
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
@@ -197,7 +198,8 @@ function combinarNombres(nombre, apellido) {
 }
 
 function obtenerSaludo(nombre) {
-  // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
+  // Toma la string "nombre" y concatena otras string en la cadena para que tome la 
+  //siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
   return 'Hola ' + nombre + '!';
@@ -211,7 +213,8 @@ function obtenerAreaRectangulo(alto, ancho) {
 
 
 function retornarPerimetro(lado){
-  //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
+  //Escibe una función a la cual reciba el valor del lado de un 
+  //cuadrado y retorne su perímetro.
   //Escribe tu código aquí
   return lado * 4;
 }
