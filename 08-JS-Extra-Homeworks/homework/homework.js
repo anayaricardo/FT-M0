@@ -100,15 +100,14 @@ function deleteAbc(cadena){
   //y devuelva la versión modificada o la misma cadena, en caso de contener dichas letras.
   //Escribe tu código aquí
 
-//  let cadenaSinABC(cadena){
-//    for (let i = 0; i < cadena.length; i++){
-//      if(cadena[i].toLowerCase() !=='a' && cadena[i].toLowerCase() !=='b' && cadena[i].toLowerCase() !=='c'){
-//        cadenaSinABC = cadenaSinABC + cadena[i];
-//    }
-//  }
-//}
+  let cadenaSinABC = ''
+    for (let i = 0; i < cadena.length; i++){
+      if(cadena[i].toLowerCase() !=='a' && cadena[i].toLowerCase() !=='b' && cadena[i].toLowerCase() !=='c'){
+        cadenaSinABC = cadenaSinABC + cadena[i];
+    }
+  }
 
-//    return cadenaSinABC
+    return cadenaSinABC
     
   
 }
