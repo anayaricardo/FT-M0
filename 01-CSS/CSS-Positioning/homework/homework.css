@@ -35,6 +35,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
     position: fixed;
     top: 0px;
     left: 0px;
+
 }
 
 /* Ejercicio 5: */
@@ -58,7 +59,10 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Acá va tu código */
 #ejercicioSiete {
     display: flex;
-    justify-content:space-around;
-    align-items: flex-start;
-    flex-direction:column-reverse;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap-reverse;
+    position: static;
+
 }
